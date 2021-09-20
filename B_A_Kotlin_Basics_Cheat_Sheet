@@ -1,0 +1,36 @@
+Hello World..........
+fun main(){ print(" Hello World ") }
+Val and Var Variables \Data Types..........
+val a: Int = 5 // can’t be changed
+  val b = 5
+var name: String = "Tim"// can be changed
+User Input..........
+val name = readLine()
+String Concatenation..........
+val message = "Hi there",    val name = "Sam"
+println(message + name)    //--> Hi thereSam
+println("$message $name")    //--> Hi there Sam
+Basic Operations..........
+num = num + 1
+num += 1
+num ++
+If Statements..........
+val num =6
+if(num > 5){        println("The number is larger than 5")    }  
+Try/Catch..........
+try {val userNum = readLine()!!.toInt()  
+        val sum =num + userNum        
+        println(sum)} 
+catch (e: Exception) {  println("Please enter numbers only”)}
+Loops..........
+For Loops
+for(number in 1..5){      println(number)}
+While Loops
+var count = 0
+while (count < 5) {      count ++        println(count)}
+When..........
+when { grade < 60 -> println("x")
+             grade < 70 -> println("y")}
+Import Random Module..........
+import kotlin.random.Random // Random library
+val randomNumber = Random.nextInt(11)
